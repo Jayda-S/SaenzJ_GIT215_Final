@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>GIT 215 Spring 2025 - Saenz Final Project </title>
+        <meta name="author" content="Jayda Saenz">
+        
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@100..900&family=Damion&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+    <body>
+        <header class="nav">
+            <img src="images/swiss-valley.jpg" alt="Swiss Valley" class="nav-img">
+            <div class="nav-content">
+                <h1><a href="index.html">Slyva Haven|Contact</a></h1>
+              <nav>
+                <ul>
+                  <li><a href="index.html" class="active">HOME</a></li>
+                  <li><a href="accom.html">ACCOMMODATIONS</a></li>
+                  <li><a href="contact.html" class="active">CONTACT</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+        <main>
+            <section id="contact">
+            <h2> Contact Us</h2>
+            <p> Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                Required fields marked with a *</p>
+            <img src="images/swiss-sunset.jpg" alt="Swiss Sunset" width="590" height="360">
+            </section>
+
+            <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                <section id="left">
+                    <label for="full-name">Full Name: <span class="required">*</span></label>
+                    <input type="text" name="full-name" id="full-name" required>
+
+                    <label for="my-email">Email Address: <span class="required">*</span></label>
+                    <input type="email" name="my-email" id="my-email" required>
+
+                    <label for="phone-number">Phone Number: <span class="required">*</span></label>
+                    <input type="tel" name="phone-number" id="phone-number" required>
+                </section>
+                
+                <fieldset id="right">
+                    <legend>Preferred Method of Contact:<span class="required">*</span></legend>
+                    
+                    <input type="radio" name="pref-contact" id="telephone" value="telephone" required checked>
+                    <label for="telephone">Phone</label>
+                                        
+                    <input type="radio" name="pref-contact" id="email" value="email">
+                    <label for="email">Email</label>
+                    
+                </fieldset>
+
+                <section id="comments">
+                    <label for="my-comments">Comments: <span class="required">*</span></label>
+                    <textarea name="my-comments" id="my-comments" required></textarea>
+
+                    <input type="submit" name="my-submit" id="my-submit">
+                </section>
+            </form>
+        </main>
+
+        <footer>
+            <p>Copyright© 2025 Slyva Haven Resort</p>
+            <p>This site is for educational purposes only.</p>
+        </footer>
+    </body>
+</html>
+
